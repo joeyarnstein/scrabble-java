@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+archivesBaseName = "scrabble-game"
+version = '1.0'
+mainClassName = "ScrabbleGame"
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  testCompile group: 'junit', name: 'junit', version: '4.+'
+}
